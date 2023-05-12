@@ -1,0 +1,61 @@
+---
+Language: Cpp
+BasedOnStyle:  LLVM
+AlignAfterOpenBracket: Align
+AlignArrayOfStructures: Right
+AlignConsecutiveMacros: Consecutive
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveBitFields: Consecutive
+AlignConsecutiveDeclarations: Consecutive
+AlignEscapedNewlines: Left
+AlignOperands: AlignAfterOperator
+AlignTrailingComments: true
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortFunctionsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AlwaysBreakAfterReturnType: None
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel:  false
+  AfterClass:      false
+  AfterControlStatement: true
+  AfterEnum:       true
+  AfterFunction:   true
+  AfterNamespace:  false
+  AfterObjCDeclaration: false
+  AfterStruct:     true
+  AfterUnion:      false
+  AfterExternBlock: false
+  BeforeCatch:     false
+  BeforeElse:      false
+  BeforeLambdaBody: false
+  BeforeWhile:     false
+  IndentBraces:    false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+BreakBeforeBinaryOperators: NonAssignment
+ColumnLimit:     120
+ContinuationIndentWidth: 4
+DeriveLineEnding: false
+DerivePointerAlignment: false
+IndentCaseLabels: true
+IndentCaseBlocks: false
+IndentPPDirectives: BeforeHash
+IndentRequires:  true
+IndentWidth:     4
+IndentWrappedFunctionNames: false
+MaxEmptyLinesToKeep: 2
+NamespaceIndentation: All
+PointerAlignment: Right
+PPIndentWidth:   -1
+ReferenceAlignment: Pointer
+SortIncludes: Never
+SpaceAfterCStyleCast: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+...
